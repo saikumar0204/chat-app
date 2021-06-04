@@ -23,7 +23,7 @@ function userLeave(id){
   
 }
 
-//Get room users
+//Get room user details
 function getRoomUsers(room){
   return users.filter(user=>user.room===room)
 }
